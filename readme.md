@@ -1,8 +1,8 @@
 # Minimalistic OpenAI Chatbot
 
-- This guide helps you set up a minimalistic chatbot using OpenAI's API, which answers questions based on a document.
+- This repo helps you set up a minimalistic chatbot using OpenAI's API, which answers questions based on a document.
 - There are 5 diffrent models one can draw inspiration and knowlege off.
-- 
+- A Swedish language support directory ( same stuff in swedish)
 
 
 ## Prerequisites
@@ -19,20 +19,21 @@
     ```
 
 2. **Install Required Packages**
-    Create a `requirements.txt` file:
-    ```txt
-    openai==1.55.0
-    ```
+  The easyst example only uses openai lib.
+  
+  
+   Libs: openai
+         sklearn
+         ipywidgets    
 
-    Then, install the packages:
     ```bash
     pip install -r requirements.txt
     ```
 
 ## Usage
 
-1. **Prepare Your FAQ Document**
-    Ensure you have a text file named `faq_hm.txt` with your FAQ content in the same directory as `minimal_chatbot.py`.
+1. **Prepare Your Document**
+    Ensure you have a text file named `yourdoc.txt` with your  content in the same directory as `minimal_chatbot.py`.
 
 2. **Set Up Your OpenAI API Key**
     Set your OpenAI API key as an environment variable:
