@@ -1,7 +1,8 @@
 import os
 from openai import OpenAI
 
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))  # (if you have set it as an environment variable)
+# client = OpenAI(api_key="sk-your-actual-key-here")  # Uncomment and replace with your actual key
 
 def load_document(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
