@@ -1,8 +1,10 @@
 # Minimalistic OpenAI Chatbot
 
 - This repo helps you set up a minimalistic chatbot using OpenAI's API, which answers questions based on a document.
-- There are 5 diffrent models one can draw inspiration and knowlege off.
-- A simple bot in console example,  An example with rag implematation and run a simple bot in jupyter enviroment.
+- There are 5 diffrent models one can draw inspiration and knowlege off:
+- A simple bot in console.
+- An example with rag implematation
+- Run a simple bot in jupyter enviroment.
 - A Swedish language support directory ( same stuff in swedish)
 
 
