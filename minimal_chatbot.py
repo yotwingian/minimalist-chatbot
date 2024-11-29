@@ -19,7 +19,7 @@ def chatbot_response(user_input, document_content):
     return response.choices[0].message.content
 
 def main():
-    document_content = load_document("yourdoc.txt")
+    document_content = load_document("faq_hm.txt")
     print("Hi, my name is Alfred and I'm our AI assistant! What can I help you with?")
     while True:
         user_input = input("\nYou: ")

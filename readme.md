@@ -4,6 +4,10 @@
 - There are 5 diffrent models one can draw inspiration and knowlege off.
 - A Swedish language support directory ( same stuff in swedish)
 
+## The FAQ 
+
+ The faq file is a from Hm's(clothing brand) actual swedish home page. Here it only serves as an example of contextfile.
+
 
 ## Prerequisites
 
