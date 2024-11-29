@@ -1,7 +1,10 @@
 # Minimalistic OpenAI Chatbot
 
 - This repo helps you set up a minimalistic chatbot using OpenAI's API, which answers questions based on a document.
-- There are 5 diffrent models one can draw inspiration and knowlege off.
+- There are 5 diffrent models one can draw inspiration and knowlege off:
+- A simple bot in console.
+- An example with rag implematation
+- Run a simple bot in jupyter enviroment.
 - A Swedish language support directory ( same stuff in swedish)
 
 ## The FAQ 
@@ -18,12 +21,12 @@
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/yourusername/minimalist-chatbot.git
+    git clone https://github.com/yotwingian/minimalist-chatbot.git
     cd minimalist-chatbot
     ```
 
 2. **Install Required Packages**
-  The easyst example only uses openai lib.
+  The easiiest example only uses openai lib.
   
   
    Libs: openai
